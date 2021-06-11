@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Test from "./Test.js";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Test App</h1>
+      <h1>Test API</h1>
+         <Test />
     </div>
   );
 }
