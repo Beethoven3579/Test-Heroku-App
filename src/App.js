@@ -1,6 +1,7 @@
-
+import React from 'react'
 import './App.css';
 import Test from "./Test.js";
+import HooksTest from "./HooksTest.js"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <h1>Test API</h1>
          <Test />
+         <HooksTest />
     </div>
   );
 }
